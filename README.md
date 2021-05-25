@@ -1,2 +1,2 @@
 # DigitRobot.jl
-URDF and Meshes for the Agility Robotics Digit Robot 
+This package provides URDF and Meshes for the Agility Robotics Digit Robot, as well as a convenience function for creating `RigidBodyDynamics.Mechanism`. 
