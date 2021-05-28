@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <robot name="digit">
   <link name="torso">
     <inertial>
@@ -9,14 +9,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/torso.obj"/>
+        <mesh filename="torso.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/torso.obj"/>
-      </geometry> 
+        <mesh filename="torso.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_hip_roll">
@@ -28,14 +28,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-yaw-housing.obj"/>
-      </geometry> 
+        <mesh filename="hip-yaw-housing.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-yaw-housing.obj"/>
-      </geometry> 
+        <mesh filename="hip-yaw-housing.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_hip_yaw">
@@ -47,14 +47,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch-housing.obj"/>
-      </geometry> 
+        <mesh filename="hip-pitch-housing.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch-housing.obj"/>
-      </geometry>  
+        <mesh filename="hip-pitch-housing.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_hip_pitch">
@@ -66,14 +66,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch.obj"/>
+        <mesh filename="hip-pitch.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch.obj"/>
-      </geometry> 
+        <mesh filename="hip-pitch.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_knee">
@@ -85,14 +85,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/knee.obj"/>
-      </geometry> 
+        <mesh filename="knee.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/knee.obj"/>
-      </geometry> 
+        <mesh filename="knee.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_shin">
@@ -104,14 +104,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shin.obj"/>
+        <mesh filename="shin.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shin.obj"/>
-      </geometry> 
+        <mesh filename="shin.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_tarsus">
@@ -123,14 +123,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/tarsus.obj"/>
-      </geometry> 
+        <mesh filename="tarsus.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/tarsus.obj"/>
-      </geometry> 
+        <mesh filename="tarsus.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_toe_pitch">
@@ -142,14 +142,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-pitch.obj"/>
-      </geometry> 
+        <mesh filename="toe-pitch.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-pitch.obj"/>
-      </geometry> 
+        <mesh filename="toe-pitch.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_toe_roll">
@@ -161,14 +161,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-roll.obj"/>
-      </geometry> 
+        <mesh filename="toe-roll.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-roll.obj"/>
-      </geometry> 
+        <mesh filename="toe-roll.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_shoulder_roll">
@@ -180,14 +180,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L1.obj"/>
-      </geometry> 
+        <mesh filename="arm-L1.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L1.obj"/>
-      </geometry> 
+        <mesh filename="arm-L1.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_shoulder_cap">
@@ -199,14 +199,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj"/>
-      </geometry> 
+        <mesh filename="shoulder-roll-housing.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj"/>
-      </geometry> 
+        <mesh filename="shoulder-roll-housing.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_waist_cap">
@@ -218,14 +218,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj"/>
-      </geometry> 
+        <mesh filename="shoulder-roll-housing.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj"/>
-      </geometry> 
+        <mesh filename="shoulder-roll-housing.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_shoulder_pitch">
@@ -237,14 +237,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L2.obj"/>
+        <mesh filename="arm-L2.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L2.obj"/>
-      </geometry> 
+        <mesh filename="arm-L2.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_shoulder_yaw">
@@ -256,14 +256,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L3.obj"/>
-      </geometry> 
+        <mesh filename="arm-L3.obj"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L3.obj"/>
-      </geometry> 
+        <mesh filename="arm-L3.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="left_elbow">
@@ -275,14 +275,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L4.obj"/>
+        <mesh filename="arm-L4.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L4.obj"/>
-      </geometry> 
+        <mesh filename="arm-L4.obj"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_hip_roll">
@@ -294,14 +294,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-yaw-housing.obj" scale="1 -1 1"/>
+        <mesh filename="hip-yaw-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-yaw-housing.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="hip-yaw-housing.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_hip_yaw">
@@ -313,14 +313,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch-housing.obj" scale="1 -1 1"/>
+        <mesh filename="hip-pitch-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch-housing.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="hip-pitch-housing.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_hip_pitch">
@@ -332,13 +332,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="hip-pitch.obj" scale="1 -1 1"/>
+      </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/hip-pitch.obj" scale="1 -1 1"/>
+        <mesh filename="hip-pitch.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -351,14 +351,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/knee.obj" scale="1 -1 1"/>
+        <mesh filename="knee.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/knee.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="knee.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_shin">
@@ -370,14 +370,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shin.obj" scale="1 -1 1"/>
+        <mesh filename="shin.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shin.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="shin.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_tarsus">
@@ -389,14 +389,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/tarsus.obj" scale="1 -1 1"/>
+        <mesh filename="tarsus.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/tarsus.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="tarsus.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_toe_pitch">
@@ -408,14 +408,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-pitch.obj" scale="1 -1 1"/>
+        <mesh filename="toe-pitch.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-pitch.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="toe-pitch.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_toe_roll">
@@ -427,14 +427,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-roll.obj" scale="1 -1 1"/>
+        <mesh filename="toe-roll.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/toe-roll.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="toe-roll.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_shoulder_roll">
@@ -446,14 +446,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L1.obj" scale="1 -1 1"/>
+        <mesh filename="arm-L1.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L1.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="arm-L1.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_shoulder_cap">
@@ -465,14 +465,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj" scale="1 -1 1"/>
+        <mesh filename="shoulder-roll-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="shoulder-roll-housing.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_waist_cap">
@@ -484,14 +484,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj" scale="1 -1 1"/>
+        <mesh filename="shoulder-roll-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/shoulder-roll-housing.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="shoulder-roll-housing.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_shoulder_pitch">
@@ -503,14 +503,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L2.obj" scale="1 -1 1"/>
+        <mesh filename="arm-L2.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L2.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="arm-L2.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_shoulder_yaw">
@@ -522,14 +522,14 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L3.obj" scale="1 -1 1"/>
+        <mesh filename="arm-L3.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L3.obj" scale="1 -1 1"/>
-      </geometry> 
+        <mesh filename="arm-L3.obj" scale="1 -1 1"/>
+      </geometry>
     </collision>
   </link>
   <link name="right_elbow">
@@ -541,13 +541,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L4.obj" scale="1 -1 1"/>
+        <mesh filename="arm-L4.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/bill/research/digit_progress/obj_meshes/arm-L4.obj" scale="1 -1 1"/>
+        <mesh filename="arm-L4.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -750,5 +750,5 @@
     <child link="right_elbow"/>
     <limit effort="1.4" lower="-1.3526" upper="1.3526" velocity="12.5"/>
   </joint>
- 
+
 </robot>
