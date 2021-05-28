@@ -1,3 +1,13 @@
+name = "DigitRobot"
+uuid = "223e9ca1-e7df-42fa-ba56-f1a405a9c000"
+authors = ["Alphonsus Adu-Bredu <adubredu@umich.edu>"]
+version = "0.1.0"
+
 [deps]
 RigidBodyDynamics = "366cf18f-59d5-5db9-a4de-86a9f6786172"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+RigidBodyDynamics = "2"
+StaticArrays = "0.10, 0.11, 0.12"
+julia = "1.2, 1.3"
