@@ -5,7 +5,7 @@ import pybullet_data
 
 p.connect(p.GUI)
 p.setAdditionalSearchPath('..')
-humanoid = p.loadURDF("urdf/digit_model.urdf") 
+humanoid = p.loadURDF("urdf/digit_model.urdf",useFixedBase=True) 
 
 gravId = p.addUserDebugParameter("gravity", -10, 10, 0)
 jointIds = []
