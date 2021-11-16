@@ -7,10 +7,13 @@ using MeshCat
 using StaticArrays
 using Colors
 
+include("inverse_kinematics.jl")
+
 packagepath() = joinpath(@__DIR__,"..")
 urdfpath() = joinpath(packagepath(), "urdf", "digit_model.urdf")
  
 export mechanism, setnominal!, urdfpath, default_background!
+export solve_left_leg_ik, solve_right_leg_ik
 
 function mechanism(::Type{T} = Float64;
         floating = true, 
