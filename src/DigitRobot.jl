@@ -1,6 +1,4 @@
-__precompile__()
-
-module DigitRobot
+ module DigitRobot
 
 using RigidBodyDynamics 
 using MeshCat
@@ -11,14 +9,27 @@ using MeshCatMechanisms
 using CoordinateTransformations
 using Rotations 
 
-include("inverse_kinematics.jl")
+include("kinematics.jl")
 include("utils.jl")
 packagepath() = joinpath(@__DIR__,"..")
 urdfpath() = joinpath(packagepath(), "urdf", "digit_model.urdf")
  
-export mechanism, setnominal!, urdfpath, default_background!
-export solve_left_leg_ik, solve_right_leg_ik
-export load_digit
+export mechanism, 
+       setnominal!, 
+       urdfpath, 
+       default_background!
+
+#kinematics
+export  solve_left_leg_fk, 
+        solve_left_leg_ik, 
+        solve_right_leg_fk, 
+        solve_right_leg_ik,
+        left_leg_neutral_conf,
+        right_leg_neutral_conf
+
+#utils
+export load_digit, 
+        set_limb_configuration!
 
 function mechanism(::Type{T} = Float64;
         floating = true, 
