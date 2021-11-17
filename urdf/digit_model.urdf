@@ -9,13 +9,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/torso.obj"/>
+        <mesh filename="package://urdf/torso.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/torso.obj"/>
+        <mesh filename="package://urdf/torso.obj"/>
       </geometry>
     </collision>
   </link>
@@ -28,13 +28,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-yaw-housing.obj"/>
+        <mesh filename="package://urdf/hip-yaw-housing.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-yaw-housing.obj"/>
+        <mesh filename="package://urdf/hip-yaw-housing.obj"/>
       </geometry>
     </collision>
   </link>
@@ -47,13 +47,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch-housing.obj"/>
+        <mesh filename="package://urdf/hip-pitch-housing.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch-housing.obj"/>
+        <mesh filename="package://urdf/hip-pitch-housing.obj"/>
       </geometry>
     </collision>
   </link>
@@ -66,13 +66,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch.obj"/>
+        <mesh filename="package://urdf/hip-pitch.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch.obj"/>
+        <mesh filename="package://urdf/hip-pitch.obj"/>
       </geometry>
     </collision>
   </link>
@@ -85,13 +85,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/knee.obj"/>
+        <mesh filename="package://urdf/knee.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/knee.obj"/>
+        <mesh filename="package://urdf/knee.obj"/>
       </geometry>
     </collision>
   </link>
@@ -104,13 +104,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shin.obj"/>
+        <mesh filename="package://urdf/shin.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shin.obj"/>
+        <mesh filename="package://urdf/shin.obj"/>
       </geometry>
     </collision>
   </link>
@@ -123,13 +123,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/tarsus.obj"/>
+        <mesh filename="package://urdf/tarsus.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/tarsus.obj"/>
+        <mesh filename="package://urdf/tarsus.obj"/>
       </geometry>
     </collision>
   </link>
@@ -142,13 +142,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-pitch.obj"/>
+        <mesh filename="package://urdf/toe-pitch.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-pitch.obj"/>
+        <mesh filename="package://urdf/toe-pitch.obj"/>
       </geometry>
     </collision>
   </link>
@@ -161,13 +161,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-roll.obj"/>
+        <mesh filename="package://urdf/toe-roll.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-roll.obj"/>
+        <mesh filename="package://urdf/toe-roll.obj"/>
       </geometry>
     </collision>
   </link>
@@ -180,13 +180,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L1.obj"/>
+        <mesh filename="package://urdf/arm-L1.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L1.obj"/>
+        <mesh filename="package://urdf/arm-L1.obj"/>
       </geometry>
     </collision>
   </link>
@@ -199,13 +199,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj"/>
       </geometry>
     </collision>
   </link>
@@ -218,13 +218,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj"/>
       </geometry>
     </collision>
   </link>
@@ -237,13 +237,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L2.obj"/>
+        <mesh filename="package://urdf/arm-L2.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L2.obj"/>
+        <mesh filename="package://urdf/arm-L2.obj"/>
       </geometry>
     </collision>
   </link>
@@ -256,13 +256,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L3.obj"/>
+        <mesh filename="package://urdf/arm-L3.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L3.obj"/>
+        <mesh filename="package://urdf/arm-L3.obj"/>
       </geometry>
     </collision>
   </link>
@@ -275,13 +275,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L4.obj"/>
+        <mesh filename="package://urdf/arm-L4.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L4.obj"/>
+        <mesh filename="package://urdf/arm-L4.obj"/>
       </geometry>
     </collision>
   </link>
@@ -294,13 +294,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-yaw-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/hip-yaw-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-yaw-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/hip-yaw-housing.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -313,13 +313,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/hip-pitch-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/hip-pitch-housing.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -332,13 +332,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/hip-pitch.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/hip-pitch.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/hip-pitch.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -351,13 +351,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/knee.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/knee.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/knee.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/knee.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -370,13 +370,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shin.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/shin.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shin.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/shin.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -389,13 +389,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/tarsus.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/tarsus.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/tarsus.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/tarsus.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -408,13 +408,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-pitch.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/toe-pitch.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-pitch.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/toe-pitch.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -427,13 +427,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-roll.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/toe-roll.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/toe-roll.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/toe-roll.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -446,13 +446,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L1.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L1.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L1.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L1.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -465,13 +465,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -484,13 +484,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/shoulder-roll-housing.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -503,13 +503,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L2.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L2.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L2.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L2.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -522,13 +522,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L3.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L3.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L3.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L3.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>
@@ -541,13 +541,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L4.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L4.obj" scale="1 -1 1"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="urdf/arm-L4.obj" scale="1 -1 1"/>
+        <mesh filename="package://urdf/arm-L4.obj" scale="1 -1 1"/>
       </geometry>
     </collision>
   </link>

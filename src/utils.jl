@@ -11,7 +11,8 @@ function get_limb_joint_names(limb::String)
 end
 function load_digit()
     mech  = mechanism(add_flat_ground=true)
-    mvis = MechanismVisualizer(mech, URDFVisuals(DigitRobot.urdfpath())) 
+    mvis = MechanismVisualizer(mech, URDFVisuals(DigitRobot.urdfpath(), 
+            package_path=[DigitRobot.packagepath()])) 
     state = MechanismState(mech)
     setnominal!(state)
     set_configuration!(mvis, configuration(state))
